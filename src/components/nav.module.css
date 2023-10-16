@@ -1,0 +1,44 @@
+.contain {
+    background-color: #f8ddd2;
+}
+
+.contains {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 75%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 1.5rem 0;
+}
+
+.links{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.links:visited{
+    color: #000000;
+}
+
+.links h1{
+    font-size: 1.5rem;
+}
+
+.icons{
+    text-align: right;
+}
+.cart {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.heart{
+    font-size: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}

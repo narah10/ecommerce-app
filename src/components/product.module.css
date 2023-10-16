@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+}
+
+.images{
+    width: 60%;
+    padding-top: 10%;
+}
+
+.imageContainer {
+    border: 1px solid #e4e4e4;
+    height: 400px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.imageContainer:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.text {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.category {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
